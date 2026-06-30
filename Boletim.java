@@ -8,4 +8,12 @@ public class Boletim {
         media_final = (nota1+nota2)/2;
         return media_final;
     } 
+
+    public void mostrarMedia() {
+        if (media_final >= 7) {
+            System.out.println("Aluno Aprovado");
+        } else {
+            System.out.println("Aluno Reprovado");
+        }
+    }
 }
